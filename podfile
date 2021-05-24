@@ -1,0 +1,7 @@
+target 'testObj' do
+
+  pod 'TZImagePickerController'
+
+  
+end
+
