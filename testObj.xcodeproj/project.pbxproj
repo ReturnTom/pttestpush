@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		6D3CC705265533B80030AA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3CC704265533B80030AA1E /* Assets.xcassets */; };
 		6D3CC708265533B80030AA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3CC706265533B80030AA1E /* LaunchScreen.storyboard */; };
 		6D3CC70B265533B80030AA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3CC70A265533B80030AA1E /* main.m */; };
+		6D7F39EB265CECC200A880A2 /* privacy_policy.html in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F39EA265CECC200A880A2 /* privacy_policy.html */; };
 		D37ED08C3E9ED6E79DAC4A20 /* libPods-testObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAECDF8407DBE3C0E5827FC5 /* libPods-testObj.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		6D3CC707265533B80030AA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D3CC709265533B80030AA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D3CC70A265533B80030AA1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D7F39EA265CECC200A880A2 /* privacy_policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy_policy.html; sourceTree = "<group>"; };
 		76D8C25972F8455820D56E63 /* Pods-testObj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testObj.debug.xcconfig"; path = "Target Support Files/Pods-testObj/Pods-testObj.debug.xcconfig"; sourceTree = "<group>"; };
 		AF81D3BA8D7E77B517476405 /* Pods-testObj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testObj.release.xcconfig"; path = "Target Support Files/Pods-testObj/Pods-testObj.release.xcconfig"; sourceTree = "<group>"; };
 		EAECDF8407DBE3C0E5827FC5 /* libPods-testObj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testObj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		6D3CC6F7265533B60030AA1E /* testObj */ = {
 			isa = PBXGroup;
 			children = (
+				6D7F39EA265CECC200A880A2 /* privacy_policy.html */,
 				6D3CC6F8265533B60030AA1E /* AppDelegate.h */,
 				6D3CC6F9265533B60030AA1E /* AppDelegate.m */,
 				6D3CC6FB265533B60030AA1E /* SceneDelegate.h */,
@@ -97,7 +100,6 @@
 				76D8C25972F8455820D56E63 /* Pods-testObj.debug.xcconfig */,
 				AF81D3BA8D7E77B517476405 /* Pods-testObj.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,6 +164,7 @@
 				6D3CC708265533B80030AA1E /* LaunchScreen.storyboard in Resources */,
 				6D3CC705265533B80030AA1E /* Assets.xcassets in Resources */,
 				6D3CC703265533B60030AA1E /* Main.storyboard in Resources */,
+				6D7F39EB265CECC200A880A2 /* privacy_policy.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
